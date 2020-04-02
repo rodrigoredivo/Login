@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background: #cdcdd6;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button {
+  font: 400 18px Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 80px;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  color: #333;
+  border: 1px solid #dcdce6;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+label {
+  width: 100%;
+  height: 60px;
+  color: #dcdce6;
+  padding: 0 10px;
+}
+
+.ultimo {
+  margin-left: 80px;
+}
+
+form .inputLogin {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
+.form img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 100px;
+}
+
+.logon-container {
+  width: 50%;
+  max-width: 1120px;
+  height: 600px;
+  margin: 85px auto;
+  background-color: #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.logon-container section.form {
+  max-width: 350px;
+}
+
+.logon-container section.form form {
+  margin-top: 10px;
+}
+
+.logon-container section.form form input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
