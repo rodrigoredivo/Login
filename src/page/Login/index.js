@@ -20,9 +20,9 @@ export default function Login() {
     }
 
     if ( data.email === loginAcess.email && data.password === loginAcess.password){
-      alert(`Acesso Liberado `+ data.email);
+      alert(`Access Released `+ data.email);
     } else {
-      alert("Acesso negado , se cadastre-se")
+      alert("Access Denied, Sign Up")
     }
   }
   return (
@@ -40,6 +40,7 @@ export default function Login() {
             className="inputLogin"
             value={email}
             onChange={event => setEmail(event.target.value)}
+            required
           />
           <h1>
           <FiUnlock className="fiIcons" size={24} color="#f3403b"/>
@@ -50,12 +51,13 @@ export default function Login() {
             className="inputLogin"
             value={password}
             onChange={event => setPassword(event.target.value)}
+            required
           />
 
           <input type="checkbox" name="Register" />
-          <label for="Register">Register Name</label>
+          <a href="/" >Register Login</a>
 
-          <label className="ultimo">Forgout Password</label>
+          <a href="/" className="ultimo">Forgout Password</a>
           <FiLogIn className="fiLogin" size={24} color="#f3403b"/>
           <button className="button" type="submit">Login</button>
         </form>
