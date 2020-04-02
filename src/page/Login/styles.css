@@ -26,12 +26,14 @@ button {
   width: 200px;
   height: 40px;
   border-radius: 8px;
-  color: #333;
-  border: 1px solid #dcdce6;
+  background-color: #1e1c1c;
+  color: #cdcdd6;
+  border: 1px solid #da7a33;
 }
 
 button:hover {
   background-color: #fff;
+  color: #1e1c1c;
 }
 
 label {
@@ -72,8 +74,6 @@ form .inputLogin {
   justify-content: center;
 }
 
-
-
 .logon-container section.form {
   max-width: 350px;
 }
@@ -86,4 +86,19 @@ form .inputLogin {
   font-size: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
+  padding-left: 50px;
 }
+
+.fiIcons{
+  position: relative;
+  left: 10px;
+  top: 46px;
+}
+
+
+.fiLogin {
+  position: relative;
+  left: 90px;
+  top: 55px
+}
+
